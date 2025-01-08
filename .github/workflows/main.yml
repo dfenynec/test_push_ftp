@@ -14,5 +14,5 @@ jobs:
         server: ftp.lanstrom.thinline.cz
         username: ${{ secrets.FTPUSERNAME }}
         password: ${{ secrets.FTPPASSWORD }}
-        protocol: ftps
+        protocol: ftp
         server-dir: /test-push-ftp/
